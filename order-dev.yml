@@ -16,6 +16,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
       
-env: dev233333
+env: dev23
 
 
