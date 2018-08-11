@@ -1,0 +1,21 @@
+# order-test.yml
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://192.168.10.124:3306/SpringCloud_Sell?characterEncoding=UTF-8&useSSL=false
+#    username: root
+#    password: 111111
+    url: jdbc:mysql://172.17.73.41:3306/test?characterEncoding=UTF-8&useSSL=false
+    username: pre_fly
+    password: pre_fly#2018&
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+      
+env: test
+
+
