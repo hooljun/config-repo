@@ -1,5 +1,7 @@
 # order-dev.yml
 spring:
+  rabbitmq:
+    addresses: 192.168.10.124:5672
   application:
     name: order
   datasource:
