@@ -13,6 +13,11 @@ spring:
 #    username: pre_fly
 #    password: pre_fly#2018&
 
+management:
+  #禁用安全管理
+  security:
+    enabled: false
+
 eureka:
   client:
     service-url:
