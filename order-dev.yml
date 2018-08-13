@@ -12,17 +12,8 @@ spring:
 #    url: jdbc:mysql://172.17.73.41:3306/test?characterEncoding=UTF-8&useSSL=false
 #    username: pre_fly
 #    password: pre_fly#2018&
-
-management:
-  #禁用安全管理
-  security:
-    enabled: false
-
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-      
 env: 1122
-
-
