@@ -23,6 +23,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
       
-env: 让人仿佛
+env: 1122
 
 
